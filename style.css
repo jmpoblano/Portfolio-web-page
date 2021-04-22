@@ -7,7 +7,7 @@ html {
 /* I added a long list of alt font-family styles, to encapsulate all web browser compatability. */
 header {
   text-align: center;
-  color: #e9896a;
+  color: #fdca40;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -33,21 +33,24 @@ hr {
 /* utilzing the h2 tag, I set a priority to the header to match the style I was looking for. */
 
 h2 {
-  color: #e9896a;
+  color: #fdca40;
   text-align: center;
 }
 
 /* using the h3 tag, i lower the priority of my next sub section. */
 h3 {
-  color: #e9896a;
+  color: #fdca40;
   text-align: center;
+  text-size: 24px;
 }
 
 /* I kept it simple for my p tags, styling them all to have the same font-family, color, and alignment. */
 p {
+  font-size: 18px;
   color: #f8f5f1;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  text-size: 25px;
 }
 
 /* using classes for specific sections, I am able to style these tags with their own style outside of the general shared tag. */
