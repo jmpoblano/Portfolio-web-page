@@ -19,7 +19,9 @@
     
     </header>
 
+    <!-- I will be styling my hr tags with CSS. -->
       <hr>
+
 	<!-- the main section will include 4 sections. a main image, an about me, my next steps,and lets connect, -->
   <main>
     
@@ -30,16 +32,19 @@
 		<article>
       
       <!-- include a section title. apply <br> elements between main sections -->
-			
-      <h3>My mini bio</h3>
+			<!-- this will be my bio section, inlcluding info about myself, and some hobbies of mine. -->
+      <h2>My mini bio</h2>
       
+      <!-- I split up my p section by using multiple p tags. This is to make it look a little bit cleaner than having a long wnded paragraph. -->
       <p>HI! My name is Jose, an aspiring Software developer. I have a passion for creativity and tinkering with all sorts of different technologies. </p>
+      
       <p>I currently live in Seattle, WA, loving the lifestyle of the PNW. Currently i work as a locksmith and fitness trainer by day, and am in school learning web development.</p>
+      
       <p>When I'm not building code, you can fund me out playing hockey, futbol and rock climbing. On rainy days, I enjoy making music, sketching, and reading.
 
       <p>Projects I am currently interested in:</p>
       
-      
+      <!-- this is an ordered list of projects I am interested inmaking on my own. -->
       <ol class = "projects">
         
         <li>Creating a custom lorem ipsum creator</li>
@@ -47,19 +52,26 @@
         <li>Making a scrollable nav bar</li>
 
       </ol>
+      
+      <!-- this article tag is used to separate this section to better organize my code, and to add CSS properties to a whole section when i wish to. -->
     </article>  
+      
       <hr>
 
+      <!-- My div tags are being used to also separate sections in ordeer to better organize and tsyle whole bodies of code. -->
 			<div class="group">
         
         <div class="item">
 
           <article>
 				  
+            <!-- this h3 tag is my next step section. I talk about where I want to be, how I will get myself there, and my future direction as a developer. -->
             <h3>My next steps</h3>
           
               <p>In the next few months, I aim to grow my skills by buiilding more personal projects.</p>
+              
               <p>By the end of my course, I aim to find an internship or work within the industry building web applications in a cloud environment.</p>
+              
               <p>In the following year, I would like to continue my education by pursuing more programs that teach Machine Learning and Automation systems. I wish to break into working with more complex data  sets and systems, geared around Machine Learning and Robotics. 
           </article>
         
@@ -69,24 +81,28 @@
 
         <div class="item">
 				  
+          <!-- this h3 tag, is my contact section. it will hold links to 3 places i can be contacted at. -->
           <h3>Lets Connect!</h3>
 					
+          <!-- while this p tag is wrapped within a div class, i still will style it with a p element in CSS, in order to keep my styles simpler and similar. -->
           <p>Reach out with any questions, ideas, or if you would like to collaborate on projects!</p>
           
+          <!-- this unordered list bullet points links that allow others to reach out to me. -->
           <ul class = "contact-me">
             
-            <li>Shoot me an email<a href="mailto:jmpoblano4@gmail.com"> here!</a></li>
+            <li>Email <a href="mailto:jmpoblano4@gmail.com"></a></li>
             
-            <li>My <a href="https://www.linkedin.com/in/jose-poblano-6339381b3/">LinkedIn</a></li>
+            <li>My LinkedIn <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/jose-poblano-6339381b3/">
+            </a></li>
             
-            <li>Check out my repos on<a href="https://www.github.com/jmpoblano"> GitHub</a></li>
+            <li>My GitHub <a class="github" target="_blank" href="https://www.github.com/jmpoblano"></a></li>
 
           </ul>
           
-          
+          <!-- this is an image of the Seattle area via map. By adding a class to it, I am able tp style it to its own properties, since the image is of a different size and different subsection of my page -->
           <img class= "map-seattle" src = "images/Seattle-map.png" alt = "map of the Seattle area."/>
           
-          
+          <!-- using another class tag, i am able to do the same as my other two images, shaping and placing the image, while not affecting the others through rpoperty differences. -->
           <img class="seattle-needle" 
           src = "images/pexels-chait-goli-1796730.jpg" alt = "Seattle Space Needle, with scenic mountain backdrop."/>
 				</div>
@@ -98,7 +114,7 @@
 
 	<!-- include link tags and some images of the area. look to match the theme and colors of the page-->
 
-  <!-- The footer section will include my name and creation year for the webpage -->
+  <!-- The footer section will include my name and creation year for the webpage. I also included a copyright emblem by applying a snippet a code i found through stack overflow. -->
   <footer>
 		<p class = "p-footer"> &#169;Jose Poblano. 2021</p>
 	</footer>

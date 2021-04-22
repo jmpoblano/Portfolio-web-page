@@ -30,19 +30,27 @@ hr {
  width: 50%;
 }
 
-/* utilzing the h3 tag, I set a priority to the header to match the style I was looking for. */
+/* utilzing the h2 tag, I set a priority to the header to match the style I was looking for. */
 
+h2 {
+  color: #e9896a;
+  text-align: center;
+}
+
+/* using the h3 tag, i lower the priority of my next sub section. */
 h3 {
   color: #e9896a;
   text-align: center;
 }
 
+/* I kept it simple for my p tags, styling them all to have the same font-family, color, and alignment. */
 p {
   color: #f8f5f1;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
 
+/* using classes for specific sections, I am able to style these tags with their own style outside of the general shared tag. */
 .projects {
   color: #f8f5f1;
   display: block;
@@ -50,11 +58,24 @@ p {
   width: 20%;
 }
 
+/* since I used a different tag, I am able to modify my two differently sized images to look the way I wat them to. */
 .contact-me {
   color: #f8f5f1;
   display: block;
   margin: 0 auto;
   width: 20%;
+}
+
+a[href^="mailto"]::before {
+  content: "📮 ";
+}
+
+.linkedin[href^="https"]::before {
+  content: "💻 ";
+}
+
+.github[href^="https"]::before {
+  content: "🐱‍👤🐱‍👤 ";
 }
 
 /* for my next two images, I wanted them both to fit and be centered, but did not want them sharing class values. */
@@ -66,6 +87,7 @@ p {
   border: 10px;
 }
 
+/* this is an image of the space-needle. I added alt accessibility within the html docs in case the images become unavailable for certain users/browsers.  */
 .seattle-needle {
   display: block;
   margin: auto auto;
