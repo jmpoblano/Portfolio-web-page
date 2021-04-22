@@ -1,14 +1,17 @@
 
+/* utilized colorhunt.co to find color scheme for site. */
 html {
   background-color: #387c6d; 
 }
 
+/* I added a long list of alt font-family styles, to encapsulate all web browser compatability. */
 header {
   text-align: center;
   color: #e9896a;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+/* I used a sample style to get an idea on how to make a more unique looking hr element. */
 hr {
     border: 0; 
   height: 1px; 
@@ -18,6 +21,7 @@ hr {
   background-image: -o-linear-gradient(left, #e9896a, #8c8b8b, #e9896a);
 }
 
+/* The image i uploaded was large, so I used CSS elements to resize and center my first image. */
 .me-img {
 
  display: block;
@@ -25,6 +29,8 @@ hr {
  padding-top: 10px;
  width: 50%;
 }
+
+/* utilzing the h3 tag, I set a priority to the header to match the style I was looking for. */
 
 h3 {
   color: #e9896a;
@@ -51,6 +57,7 @@ p {
   width: 20%;
 }
 
+/* for my next two images, I wanted them both to fit and be centered, but did not want them sharing class values. */
 .map-seattle {
   display: block;
   margin: auto auto;
