@@ -1,0 +1,66 @@
+
+html {
+  background-color: #387c6d; 
+}
+
+header {
+  text-align: center;
+  color: #e9896a;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+hr {
+    border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #e9896a, #8c8b8b, #e9896a);
+  background-image: -moz-linear-gradient(left, #e9896a, #8c8b8b, #e9896a);
+  background-image: -ms-linear-gradient(left, #e9896a, #8c8b8b, #e9896a);
+  background-image: -o-linear-gradient(left, #e9896a, #8c8b8b, #e9896a);
+}
+
+.me-img {
+
+ display: block;
+ margin: 0 auto;
+ padding-top: 10px;
+ width: 50%;
+}
+
+h3 {
+  color: #e9896a;
+  text-align: center;
+}
+
+p {
+  color: #f8f5f1;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.projects {
+  color: #f8f5f1;
+  display: block;
+  margin: 0 auto;
+  width: 20%;
+}
+
+.contact-me {
+  color: #f8f5f1;
+  display: block;
+  margin: 0 auto;
+  width: 20%;
+}
+
+.map-seattle {
+  display: block;
+  margin: auto auto;
+  width: 55%;
+  padding: 20px;
+  border: 10px;
+}
+
+.seattle-needle {
+  display: block;
+  margin: auto auto;
+  width: 55%;
+}
